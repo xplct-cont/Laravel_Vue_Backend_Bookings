@@ -14,7 +14,7 @@ class BookingFactory extends Factory
     public function definition()
     {
         return [
-            'bus_name' =>$this->faker->randomElement(["Dragon Lines","The Decker","Solaris Bus","Booze Bus","Ceres Bus","Charter Bus Co.","Blue Line Bus","Champion Express"]),
+            'bus_name' =>$this->faker->randomElement(["Dragon Lines","Charter Bus Co.","Blue Line Bus","Champion Express"]),
             'passenger_name' =>$this->faker->name,
             'address' =>$this->faker->address,
             'contact_no' =>$this->faker->numerify('##########')

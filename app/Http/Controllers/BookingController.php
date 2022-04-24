@@ -9,7 +9,7 @@ class BookingController extends Controller
 {
     public function index(){
 
-        return response()->json(Booking::orderBy('passenger_name')->get());
+        return response()->json(Booking::orderBy('bus_name')->get());
 
     }
 
